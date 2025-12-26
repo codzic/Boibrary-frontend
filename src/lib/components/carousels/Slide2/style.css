@@ -1,5 +1,6 @@
 .sl2 {
     height: 100%;
+    aspect-ratio: 16/9;
     position: relative;
     animation: fade-in .5s ease-in;
 }
@@ -36,5 +37,5 @@
     font-size: 20px;
     font-weight: 600;
 
-    background-color: rgba(245, 245, 245, 0.2);
+    background-color: rgba(245, 245, 245, 1);
 }

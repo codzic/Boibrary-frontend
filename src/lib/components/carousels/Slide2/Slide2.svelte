@@ -3,7 +3,7 @@
 </script>
 
 <div class="sl2">
-	<img src="/carousels/slide2.jpg" alt="" />
+	<!-- <img src="/carousels/slide2.jpg" alt="" /> -->
 
 	<div>
 		<h1>খুঁজে নিন আত্মার তৃপ্তি সাহিত্যের মাঝে</h1>

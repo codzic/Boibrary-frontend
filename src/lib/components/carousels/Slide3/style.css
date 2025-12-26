@@ -33,9 +33,9 @@
     white-space: nowrap;
 }
 
-.sl3 h1 span {
+/* .sl3 h1 span {
     color: var(--orange-primary);
-}
+} */
 
 .sl3 button {
     margin-top: 20px;
@@ -58,7 +58,7 @@
 .sl3 button:hover {
     border: .5px solid var(--orange-primary);
     color: var(--orange-primary);
-    background-color: rgba(245, 245, 245, 0.17);
+    background-color: rgba(245, 245, 245, 1);
 }
 
 @keyframes slide-in-right {
