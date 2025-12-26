@@ -1,0 +1,40 @@
+.sl2 {
+    height: 100%;
+    position: relative;
+    animation: fade-in .5s ease-in;
+}
+
+.sl2 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit:cover;
+    filter: brightness(.6);
+}
+
+.sl2 div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    text-align: center;
+    color: whitesmoke;
+
+    transform: translate(-50%, -50%);
+}
+
+.sl2 h1 {
+    font-family: var(--font-head-txt);
+}
+
+.sl2 p {
+    /* display: inline; */
+
+    font-family: var(--font-body-txt);
+    color: var(--orange-primary);
+
+    font-size: 20px;
+    font-weight: 600;
+
+    background-color: rgba(245, 245, 245, 0.2);
+}
