@@ -1,6 +1,8 @@
 <script>
   import { page } from '$app/stores';
   import { onMount } from 'svelte';
+
+  import logo from "$lib/assets/logo.png";
   
   let isMenuOpen = $state(false);
   let isVisible = $state(true);
@@ -38,7 +40,7 @@
     <div class="navbar-content">
       <!-- Logo -->
       <a href="/" class="logo">
-        <span class="logo-icon">📚</span>
+        <img src={logo} alt="" class="logo-icon">
         <span class="logo-text">Boibrary</span>
       </a>
 
@@ -126,7 +128,9 @@
   }
 
   .logo-icon {
-    font-size: 28px;
+    height: 40px;
+    /* width: 28px; */
+    transform: scale(1.25);
   }
 
   .logo-text {
